@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Clock, MapPin, Mail, Users, FileText } from 'lucide-react';
+import { Clock, MapPin, Mail, Users, FileText } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
             </div>
             
             <div className="text-xs text-gray-500">
-              <p>Copyright © www.landassign.com All rights reserved</p>
+              <p>Copyright  www.landassign.com All rights reserved</p>
             </div>
           </div>
 
