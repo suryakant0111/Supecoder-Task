@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useHeroStore, startAutoSlide, startProgressUpdate } from '../../../shared/store/useHeroStore';
 // Add Zen Dots font import
 const fontLink = document.createElement('link');
