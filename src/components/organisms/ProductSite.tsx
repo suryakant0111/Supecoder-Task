@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 
 interface Product {
   id: number;
@@ -45,7 +44,7 @@ const products: Product[] = [
   }
 ];
 
-const ProductSite: React.FC = () => {
+const ProductSite = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Header section */}

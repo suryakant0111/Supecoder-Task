@@ -1,7 +1,6 @@
-import React from 'react';
 import { Clock, MapPin, Mail, Users, FileText } from 'lucide-react';
 
-const Footer: React.FC = () => {
+const Footer = () => {
   return (
     <footer className="bg-black text-gray-300">
       {/* Main Footer Content */}

@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Mail, Lock } from 'lucide-react';
 
-const Login = () => {
+const Login: React.FC = () => {
   const [formData, setFormData] = useState({
     id: '',
     password: ''
