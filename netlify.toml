@@ -1,0 +1,26 @@
+[build]
+  command = "yarn install --network-timeout 600000 && yarn build"
+  publish = "dist"
+  NODE_VERSION = "18"
+
+[build.environment]
+  NODE_OPTIONS = "--max_old_space_size=4096"
+
+[dev]
+  command = "yarn dev"
+  port = 3000
+  publish = "dist"
+  targetPort = 5173  # Vite default port
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "same-origin"
