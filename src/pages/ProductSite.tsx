@@ -1,14 +1,12 @@
 "use client";
 
 import useProductStore from "../store/productStore";
-import type { Product } from "../store/productStore";
 import { useEffect } from "react";
 
 const ProductSite = () => {
   const { 
     products, 
     selectedProductId,
-    setSelectedProductId,
     fetchProducts,
     loading,
     error 
