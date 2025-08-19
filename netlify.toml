@@ -3,7 +3,7 @@
   publish = "dist"
 
 [build.environment]
-  NODE_VERSION = "20.5.1" # updated to Node 20
+  NODE_VERSION = "20.11.1" # upgraded to satisfy eslint & react-router
   NPM_FLAGS = "--no-optional"
   YARN_VERSION = "1.22.19"
   YARN_FLAGS = "--no-optional"
