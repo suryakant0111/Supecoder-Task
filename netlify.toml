@@ -3,7 +3,7 @@
   publish = "dist"
 
 [build.environment]
-  NODE_VERSION = "20.11.1" # upgraded to satisfy eslint & react-router
+  NODE_VERSION = "20.19.0"  # Updated to be compatible with Vite 7.1.2
   NPM_FLAGS = "--no-optional"
   YARN_VERSION = "1.22.19"
   YARN_FLAGS = "--no-optional"
