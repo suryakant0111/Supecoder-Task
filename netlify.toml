@@ -1,9 +1,12 @@
 [build]
-  command = "yarn install --network-timeout 600000 && yarn build"
+  command = "yarn build"
   publish = "dist"
-  NODE_VERSION = "18"
 
 [build.environment]
+  NODE_VERSION = "18.17.0"
+  NPM_FLAGS = "--no-optional"
+  YARN_VERSION = "1.22.19"
+  YARN_FLAGS = "--no-optional"
   NODE_OPTIONS = "--max_old_space_size=4096"
 
 [dev]
@@ -20,7 +23,7 @@
 [[headers]]
   for = "/*"
   [headers.values]
+    Referrer-Policy = "same-origin"
+    X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
-    X-Content-Type-Options = "nosniff"
-    Referrer-Policy = "same-origin"
