@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { useHeroStore, startAutoSlide, startProgressUpdate } from '../../../shared/store/useHeroStore';
+import { useHeroStore, startAutoSlide, startProgressUpdate } from '../../shared/store/useHeroStore';
 // Add Zen Dots font import
 const fontLink = document.createElement('link');
 fontLink.href = 'https://fonts.googleapis.com/css2?family=Zen+Dots:wght@400&display=swap';
