@@ -1,6 +1,14 @@
 e-commerce web application built with React, TypeScript, and Vite. This project demonstrates a fully functional online store with a clean UI, cart functionality, and responsive design.
 
 ---
+---
+
+## 🌐 Deployment
+
+Deployed on [Netlify](https://netlify.com/).  
+Visit: [Live Demo](https://68a410c934165e00088ec209--landas-shop.netlify.app/)
+
+---
 
 ## 🚀 Features
 
@@ -80,12 +88,6 @@ Supecoder-Task/
 
 ---
 
-## 🌐 Deployment
-
-Deployed on [Netlify](https://netlify.com/).  
-Visit: [Live Demo](https://68a410c934165e00088ec209--landas-shop.netlify.app/)
-
----
 
 ## 🙌 Contributing
 
