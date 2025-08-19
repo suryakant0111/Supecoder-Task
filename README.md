@@ -96,17 +96,3 @@ To contribute:
 3. Make your changes.
 4. Submit a pull request.
 
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## 📧 Contact
-
-For any queries, reach out via [GitHub Issues](https://github.com/suryakant0111/Supecoder-Task/issues) or contact the maintainer [@suryakant0111](https://github.com/suryakant0111).
-
----
-
