@@ -230,7 +230,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         <div
-          className={`lg:hidden fixed top-16 left-0 right-0 z-40 transition-all duration-300 ease-in-out transform ${
+          className={`lg:hidden absolute left-0 right-0 z-40 transition-all duration-300 ease-in-out transform ${
             isMobileMenuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4 pointer-events-none'
           }`}
         >
